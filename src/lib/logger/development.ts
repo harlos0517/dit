@@ -7,7 +7,7 @@ import type { NextFunction, Request, Response } from 'express'
 import { DateTime } from 'luxon'
 import { UAParser } from 'ua-parser-js'
 
-import { CustomConsole, LogError, Logger } from '@/lib/logger/type'
+import { CustomConsole, LogError, Logger } from '@/lib/logger/types'
 import { highlight } from '@/lib/terminal-highlight'
 
 const getIdText = (id: string | undefined) => {

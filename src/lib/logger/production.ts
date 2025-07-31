@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import { CustomConsole, LogError, Logger } from '@/lib/logger/type'
+import { CustomConsole, LogError, Logger } from '@/lib/logger/types'
 import { getNamespace } from 'cls-hooked'
 import type { NextFunction, Request, Response } from 'express'
 

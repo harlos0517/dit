@@ -2,6 +2,11 @@
 
 ## [Conversation History](https://claude.ai/share/e66fd8fc-fb30-440c-b623-37c464624566)
 
+## Concept
+- Build a service that user can deploy themself and keep their data as their own property without giving to any untrusted service.
+- The solution is to build a Docker image and let streamers deploy them on Render or whatever Docker image deploy service they want.
+- Keep everything in the docker as much as possible, and also keep it small as much as possible.
+
 ## planned tech-stack
 - backend (src): node.js / Typescript / express.js
   - serve dashboard frontend (React)
